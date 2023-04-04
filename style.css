@@ -1,0 +1,70 @@
+/*
+ *  Author: Michelle Cavalcanti Maia
+ *  JavaScript Examples
+ *  The Complete JavaScript Course 2023: From Zero to Expert! - Udemy Course
+ *  My website: https://www.michellemaia.com
+ *  April 2023
+ *
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 5rem;
+  line-height: 1.3;
+  width: 100%;
+  padding: 15rem 0;
+  text-align: center;
+  color: white;
+}
+.projects {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+.projects {
+  transition: all 0.5s;
+}
+.projects li:hover {
+  transform: translateY(-0.5rem);
+}
+.projects li a:link,
+.projects li a:visited {
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #777;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  transition: all 0.3s;
+}
+.projects li a:hover,
+.projects li a:active {
+  color: white;
+  background-color: #777;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.2);
+}
+footer p {
+  text-align: center;
+  font-size: 1rem;
+}

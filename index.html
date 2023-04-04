@@ -1,0 +1,41 @@
+<!-- 
+ *  Author: Michelle Cavalcanti Maia
+ *  JavaScript Examples
+ *  Responsive Real-World Websites with HTML and CSS - Udemy Course
+ *  My website: https://www.michellemaia.com
+ *  April 2023
+ *
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MAIA | JavaScript</title>
+  </head>
+  <body>
+    <section class="main">
+      <h1>JavaScript Examples</h1>
+      <e>
+        <ul class="projects">
+          <li><a href="Guess-My-Number.html">Guess My Number</a></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+    </section>
+    <footer>
+      <p>
+        Copyright © <span class="year">2022</span> by Michelle Maia. All rights
+        reserved.
+      </p>
+    </footer>
+    <script>
+      const yearEl = document.querySelector(".year");
+      const currentYear = new Date().getFullYear();
+      yearEl.textContent = currentYear;
+    </script>
+  </body>
+</html>
