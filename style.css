@@ -18,7 +18,7 @@ body {
   background: linear-gradient(to top left, #28b487, #7dd56f);
 }
 .main {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
