@@ -22,12 +22,12 @@ body {
 }
 header {
   position: relative;
-  height: 35vh;
+  min-height: 35vh;
   border-bottom: 7px solid #eee;
 }
 main {
   position: relative;
-  height: 65vh;
+  min-height: 65vh;
   color: #eee;
   display: flex;
   align-items: center;
