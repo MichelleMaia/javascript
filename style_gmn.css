@@ -22,12 +22,12 @@ body {
 }
 header {
   position: relative;
-  min-height: 35vh;
+  min-height: 40vh;
   border-bottom: 7px solid #eee;
 }
 main {
   position: relative;
-  min-height: 65vh;
+  min-height: 60vh;
   color: #eee;
   display: flex;
   align-items: center;
@@ -131,12 +131,13 @@ footer p {
   font-size: 1.2rem;
 }
 
-/**************************/
-/* BELOW 544px (Phones) */
-/**************************/
-
 @media (max-width: 34em) {
   html {
     font-size: 50%;
+  }
+}
+@media (max-height: 30em) {
+  html {
+    font-size: 35%;
   }
 }
