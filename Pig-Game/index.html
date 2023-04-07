@@ -1,0 +1,50 @@
+<!-- 
+ *  Author: Michelle Cavalcanti Maia
+ *  JavaScript Examples
+ *  Responsive Real-World Websites with HTML and CSS - Udemy Course
+ *  My website: https://www.michellemaia.com
+ *  April 2023
+ *
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MAIA | Pig Game</title>
+  </head>
+  <body>
+    <main>
+      <section class="player player--0 player--active">
+        <h2 class="name" id="name--0">Player 0</h2>
+        <p class="score" id="score--0">43</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--0">0</p>
+        </div>
+      </section>
+      <section class="player player--1">
+        <h2 class="name" id="name--1">Player 1</h2>
+        <p class="score" id="score--1">24</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--1">0</p>
+        </div>
+      </section>
+      <img src="dice-5.png" alt="Playing dice" class="dice" />
+      <button class="btn btn--new">🔄 New game</button>
+      <button class="btn btn--roll">🎲 Roll dice</button>
+      <button class="btn btn--hold">📥 Hold</button>
+    </main>
+    <div class="home"><a href="../index.html">🏠 Home</a></div>
+    <footer>
+      <p>
+        Copyright © <span class="year">2022</span> by Michelle Maia. All rights
+        reserved.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
