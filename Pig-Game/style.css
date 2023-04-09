@@ -181,22 +181,44 @@ footer p {
   display: none;
 }
 
-/**************************/
-/* BELOW 704px (Smaller tablets) */
-/**************************/
-@media (max-width: 44em) {
-  html {
-    font-size: 50%;
-  }
+@media (max-width: 65em) {
   main {
     width: 80rem;
   }
 }
-/**************************/
-/* BELOW 544px (Phones) */
-/**************************/
-@media (max-width: 34em) {
+@media (max-width: 50em) {
+  main {
+    width: 70rem;
+  }
+  .player {
+    padding: 9rem 5rem;
+  }
+}
+@media (max-width: 44em) {
   html {
-    font-size: 45%;
+    font-size: 50%;
+  }
+}
+@media (max-width: 36em) {
+  html {
+    font-size: 40%;
+  }
+  .player {
+    padding: 5rem 1rem;
+  }
+  .current {
+    width: 50%;
+  }
+  .btn--new {
+    top: 13rem;
+  }
+  .btn--roll {
+    top: 34rem;
+  }
+  .btn--hold {
+    top: 41.1rem;
+  }
+  .dice {
+    top: 21rem;
   }
 }
